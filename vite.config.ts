@@ -15,6 +15,7 @@ export default defineConfig({
         'robots.txt',
         'apple-touch-icon.png',
       ],
+      base: './',
       manifest: {
         name: 'vite-react-pwa',
         short_name: 'vite-pwa',
