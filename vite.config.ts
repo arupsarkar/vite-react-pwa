@@ -15,16 +15,15 @@ export default defineConfig({
         'robots.txt',
         'apple-touch-icon.png',
       ],
-      base: './',
+      base: './dist',
       manifest: {
         name: 'vite-react-pwa',
         short_name: 'vite-pwa',
         description: 'A vite react pwa template',
-        start_url: '/',
+        start_url: '.',
         display: 'standalone',
         background_color: '#ffffff',
         theme_color: '#ffffff',
-        scope: '/',
         icons: [
           {
             src: '/android-chrome-192x192.png',
